@@ -47,7 +47,7 @@
 // export default Slider;
 import evos from "../assets/img/evos.webp";
 
-import  { useState } from "react";// React,
+import  { useState } from "react";
 import "./Slider.scss";
 
 const Section1 = () => {
