@@ -1,0 +1,330 @@
+.footer {
+    background-color: rgb(141, 141, 141);
+
+    &_box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &_phone {
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+
+            color: rgb(0, 0, 0);
+        }
+
+        &_list {
+            display: flex;
+            gap: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+            img {
+                width: 40px;
+            }
+
+            &_text {
+                margin-top: 10px;
+                font-size: 19px;
+                color: black;
+
+            }
+        }
+
+        &_list2 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            gap: 20px;
+
+            img {
+                width: 40px;
+
+            }
+        }
+
+        &_picture {
+            border-radius: 50%;
+            height: 150px;
+            width: 120px;
+        }
+
+        &_learn {
+            color: rgb(46, 43, 43);
+            font-size: 19px;
+
+        }
+
+        &_link {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            justify-self: center;
+            color: rgb(255, 255, 255);
+            padding: 10px 20px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 20px;
+        }
+
+        &_link1 {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+
+        }
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .footer {
+        &_box {
+            &_list {
+                gap: 20px;
+
+                img {
+                    width: 37px;
+                }
+
+                &_text {
+                    font-size: 17px;
+                }
+            }
+
+            &_list2 {
+                gap: 20px;
+
+                img {
+                    width: 37px;
+                }
+            }
+
+            &_picture {
+                height: 140px;
+                width: 120px;
+            }
+
+            &_learn {
+                font-size: 17px;
+
+            }
+
+            &_link {
+                font-size: 15px;
+                padding: 10px 20px;
+                border-radius: 20px;
+            }
+
+            &_link1 {
+                font-size: 16px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .footer {
+        &_box {
+            &_list {
+                gap: 20px;
+
+                img {
+                    width: 36px;
+                }
+
+                &_text {
+                    font-size: 16px;
+                }
+            }
+
+            &_list2 {
+                gap: 20px;
+
+                img {
+                    width: 36px;
+                }
+            }
+
+            &_picture {
+                height: 140px;
+                width: 120px;
+            }
+
+            &_learn {
+                font-size: 16px;
+
+            }
+
+            &_link {
+                font-size: 14px;
+                padding: 9px 19px;
+                border-radius: 20px;
+            }
+
+            &_link1 {
+                font-size: 15px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .footer {
+        &_box {
+            &_list {
+                gap: 20px;
+
+                img {
+                    width: 36px;
+                }
+
+                &_text {
+                    font-size: 16px;
+                }
+            }
+
+            &_list2 {
+                gap: 20px;
+
+                img {
+                    width: 36px;
+                }
+            }
+
+            &_picture {
+                height: 140px;
+                width: 120px;
+            }
+
+            &_learn {
+                font-size: 16px;
+
+            }
+
+            &_link {
+                font-size: 14px;
+                padding: 9px 19px;
+                border-radius: 20px;
+            }
+
+            &_link1 {
+                font-size: 15px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .footer {
+        &_box {
+            &_list {
+                gap: 20px;
+
+                img {
+                    width: 35px;
+                }
+
+                &_text {
+                    font-size: 14px;
+                }
+            }
+
+            &_list2 {
+                gap: 20px;
+
+                img {
+                    width: 35px;
+                }
+            }
+
+            &_picture {
+                height: 140px;
+                width: 120px;
+            }
+
+            &_learn {
+                font-size: 15px;
+
+            }
+
+            &_link {
+                font-size: 13px;
+                padding: 9px 19px;
+                border-radius: 20px;
+            }
+
+            &_link1 {
+                font-size: 14px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .footer_box_cover {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        margin: 0 auto;
+
+        &_box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 50px;
+
+            &_list {
+                gap: 30px;
+
+                img {
+                    width: 37px;
+                }
+
+                &_text {
+                    font-size: 17px;
+                }
+            }
+
+            &_list2 {
+                gap: 30px;
+
+
+                img {
+                    width: 37px;
+                }
+            }
+
+            &_picture {
+                height: 140px;
+                width: 120px;
+                display: none;
+            }
+
+            &_learn {
+                font-size: 17px;
+
+            }
+
+            &_link {
+                font-size: 15px;
+                padding: 10px 20px;
+                border-radius: 20px;
+
+            }
+
+            &_link1 {
+                font-size: 16px;
+                margin-top: 20px;
+            }
+        }
+    }
+}

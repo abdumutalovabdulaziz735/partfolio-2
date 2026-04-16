@@ -4,8 +4,8 @@ import { Outlet } from "react-router-dom";
 const HomeLayout = () => {
   return (
     <>
-      <Nav />
-      <Outlet />
+        <Nav />
+        <Outlet />
     </>
   );
 };
